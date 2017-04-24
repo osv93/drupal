@@ -83,7 +83,7 @@ class __TwigTemplate_546178a72b6c286e650b79b5b4ec0df1c17e40101b1724ec54085d753f4
    <div class=\"containerImg\">";
         // line 35
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "img1", array()), "html", null, true));
-        echo "<img class=\"img-responsive hidden-print\" src=\"./themes/laboratorio_drupal/images/imagen.png\" alt=\"img1\"></div>
+        echo "<img class=\"img-responsive hidden-print\" src=\"../sites/default/files/default_images/imagen.png\" alt=\"img1\"></div>
 
    <!--Contenedor de las secciones de la página-->
    <div class=\"row\">
@@ -117,7 +117,7 @@ class __TwigTemplate_546178a72b6c286e650b79b5b4ec0df1c17e40101b1724ec54085d753f4
      </p>
 
      <!--Imagen-->
-     <img class=\"img-responsive hidden-print\" src=\"./themes/laboratorio_drupal/images/imagen2.png\" alt=\"img2\">
+     <img class=\"img-responsive hidden-print\" src=\"../sites/default/files/default_images/imagen.png\" alt=\"img2\">
      <p>
        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
      </p>
@@ -142,7 +142,7 @@ class __TwigTemplate_546178a72b6c286e650b79b5b4ec0df1c17e40101b1724ec54085d753f4
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
     </p>
 
-    <img class=\"img-responsive hidden-print\" src=\"./themes/laboratorio_drupal/images/imagen2.png\" alt=\"img3\">
+    <img class=\"img-responsive hidden-print\" src=\"../sites/default/files/default_images/imagen.png\" alt=\"img3\">
     <section class=\"SubSubSubSection\">
       <h4>Sub-Sub-Sub-section</h4>
       <p>
