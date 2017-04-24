@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen">
+  <link href="print.css" type="text/css" rel="stylesheet" media="print">
+
+
+
+  <title>Examen parcial1-UNA</title>
+</head>
+<body>
+	<!--Contenedor principal que define un tamaño para hacer el scroll-->
+	<div class="wrapper">	
+  {{page.content}}
+		<header>
+      {{page.myheader}}
+      <div class="container-fluid">
+        <div class="navbar-header modified-titulo" >
+          <!--<a class="navbar-brand" href="#">WebSiteName</a>-->
+          <h3 class="navbar-brand">UNA WEB [ Luis Osvaldo Aguero Perez - 115360385]</h3>
+        </div>
+        <ul class="nav navbar-nav navbar-right hidden-print">
+         <li class="menuHome"><a href="#">HOME</a></li>
+         <li class="menuAbout"><a href="#">ABOUT</a></li>
+         <li class="menuCourses"><a href="#">COURSES</a></li>
+         <li><a href="#">CONTACT</a></li>
+       </ul>
+     </div>
+   </header>
+   <div class="containerImg">{{page.slider}}<img class="img-responsive hidden-print" src="./themes/ejemplo1/images/imagen.png" alt="img1"></div>
+
+   <!--Contenedor de las secciones de la página-->
+   <div class="row">
+    <div class="col-md-5">
+      <article>
+        <section class="sectionMain">
+         <h2>Main Section</h2>
+         <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.   
+          Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.               
+        </p>
+        <p>
+          Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.                     
+          In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. 
+        </p> 
+      </section>
+    </article>
+  </div>
+  <div class="col-md-3">
+    <section class="SubSectionCenter">
+      <h2>Sub-section Center</h2>
+      <p id="textoCuadro">
+       A <b>paragrap</b> of <span>text</span> with an <a href="#">unassigned link</a>.
+       <br>
+       A <i>second row</i> of <s>text</s> with a <a class="sinDecoracion" href="#">web link</a>
+     </p>
+
+     <!--Imagen-->
+     <img class="img-responsive hidden-print" src="./themes/ejemplo1/images/imagen2.png" alt="img2">
+     <p>
+       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+     </p>
+     <p>
+       Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+     </p>
+   </section>
+ </div>
+ <div class="col-md-3">
+  <section class="SubSectionRight">
+
+    <h2>Sub-Section Right</h2>
+    <p>
+     We open at <span>10:00</span> every morning.
+   </p>
+   <p>
+     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+   </p>   
+   <section class="SubSubSection">
+     <h3>Sub-Sub-section</h3>
+     <p>
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+    </p>
+
+    <img class="img-responsive hidden-print" src="./themes/ejemplo1/images/imagen2.png" alt="img3">
+    <section class="SubSubSubSection">
+      <h4>Sub-Sub-Sub-section</h4>
+      <p>
+       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+     </p>
+   </section>
+ </section>
+</section>
+</div>
+
+
+
+</div>
+</div>
+<!--El pie de página-->
+<footer>
+  <div class="lineaFooter"></div>
+  <div class="Footer">
+   <nav>
+    <ul class="">
+     <li class="menuHome"><a href="#">HOME</a></li>
+     <li class="menuAbout"><a href="#">ABOUT</a></li>
+     <li class="menuCourses"><a href="#">COURSES</a></li>
+     <li><a href="#">CONTACT</a></li>
+   </ul>
+ </nav>
+</div>
+Copyright &copy; 2017. Curso de Programacion Web
+</footer>
+</body>
+</html>

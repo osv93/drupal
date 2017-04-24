@@ -1,0 +1,5 @@
+style:
+  css:
+    theme:
+      style.css: { media: screen}
+      print.css: { media: print }
