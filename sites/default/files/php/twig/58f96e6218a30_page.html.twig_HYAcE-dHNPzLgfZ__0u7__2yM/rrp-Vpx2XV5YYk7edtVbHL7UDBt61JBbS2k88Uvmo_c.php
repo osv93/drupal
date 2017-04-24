@@ -82,7 +82,7 @@ class __TwigTemplate_546178a72b6c286e650b79b5b4ec0df1c17e40101b1724ec54085d753f4
    </header>
    <div class=\"containerImg\">";
         // line 35
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "slider", array()), "html", null, true));
+        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "img1", array()), "html", null, true));
         echo "<img class=\"img-responsive hidden-print\" src=\"./themes/laboratorio_drupal/images/imagen.png\" alt=\"img1\"></div>
 
    <!--Contenedor de las secciones de la página-->
