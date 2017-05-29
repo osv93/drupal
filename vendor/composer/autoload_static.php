@@ -81,6 +81,8 @@ class ComposerStaticInitDrupal8
         ),
         'D' => 
         array (
+            'Drupal\\plugin\\' => 14,
+            'Drupal\\currency\\' => 16,
             'Drupal\\Driver\\' => 14,
             'Drupal\\Core\\Composer\\' => 21,
             'Drupal\\Core\\' => 12,
@@ -93,6 +95,11 @@ class ComposerStaticInitDrupal8
         array (
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
+            'Commercie\\Currency\\' => 19,
+            'Commercie\\CurrencyExchange\\' => 27,
+            'CommerceGuys\\Intl\\' => 18,
+            'CommerceGuys\\Enum\\' => 18,
+            'CommerceGuys\\Addressing\\' => 24,
         ),
         'B' => 
         array (
@@ -260,6 +267,14 @@ class ComposerStaticInitDrupal8
         array (
             0 => __DIR__ . '/..' . '/fabpot/goutte/Goutte',
         ),
+        'Drupal\\plugin\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/modules/contrib/plugin/src',
+        ),
+        'Drupal\\currency\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/modules/contrib/currency/src',
+        ),
         'Drupal\\Driver\\' => 
         array (
             0 => __DIR__ . '/../..' . '/drivers/lib/Drupal/Driver',
@@ -295,6 +310,26 @@ class ComposerStaticInitDrupal8
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
+        ),
+        'Commercie\\Currency\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/commercie/currency/src',
+        ),
+        'Commercie\\CurrencyExchange\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/commercie/currency-exchange/src',
+        ),
+        'CommerceGuys\\Intl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/commerceguys/intl/src',
+        ),
+        'CommerceGuys\\Enum\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/commerceguys/enum/src',
+        ),
+        'CommerceGuys\\Addressing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/commerceguys/addressing/src',
         ),
         'Behat\\Mink\\Driver\\' => 
         array (
@@ -402,6 +437,7 @@ class ComposerStaticInitDrupal8
         'Generic_Sniffs_ControlStructures_InlineControlStructureSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/ControlStructures/InlineControlStructureSniff.php',
         'Generic_Sniffs_Debug_CSSLintSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Debug/CSSLintSniff.php',
         'Generic_Sniffs_Debug_ClosureLinterSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Debug/ClosureLinterSniff.php',
+        'Generic_Sniffs_Debug_ESLintSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Debug/ESLintSniff.php',
         'Generic_Sniffs_Debug_JSHintSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Debug/JSHintSniff.php',
         'Generic_Sniffs_Files_ByteOrderMarkSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/ByteOrderMarkSniff.php',
         'Generic_Sniffs_Files_EndFileNewlineSniff' => __DIR__ . '/..' . '/squizlabs/php_codesniffer/CodeSniffer/Standards/Generic/Sniffs/Files/EndFileNewlineSniff.php',

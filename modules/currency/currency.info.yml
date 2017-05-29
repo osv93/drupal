@@ -1,0 +1,13 @@
+name: Currency
+description: Provides currency metadata and exchange rates, and amount formatting.
+# core: 8.x
+configure: entity.currency.collection
+type: module
+dependencies:
+  - plugin (2.x)
+
+# Information added by Drupal.org packaging script on 2016-07-28
+version: '8.x-3.1+7-dev'
+core: '8.x'
+project: 'currency'
+datestamp: 1469688844
