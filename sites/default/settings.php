@@ -776,4 +776,4 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_gf2KJGeTWnjO_yqMbTq6lRjR4Em0jEZ-RbncJ-7gj596TMf79yTPoz0uJFDyAEOtvdZWSU0R-w/sync';
-$conf['maintenance_mode'] = 0;
+$conf['theme_default'] = 'minelli';
