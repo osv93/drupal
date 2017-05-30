@@ -749,6 +749,8 @@ $settings['file_scan_ignore_directories'] = [
   'bower_components',
 ];
 
+$conf['maintenance_mode'] = 0;
+
 /**
  * Load local development override configuration, if available.
  *
