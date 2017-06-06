@@ -765,9 +765,9 @@ $settings['file_scan_ignore_directories'] = [
 # }
 
 $databases['default']['default'] = array (
-  'database' => 'lab_drupal',
-  'username' => 'root',
-  'password' => '1234',
+  'database' => 'db_115360385',
+  'username' => 'admin',
+  'password' => 'admin',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
